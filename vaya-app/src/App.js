@@ -45,7 +45,9 @@ const members = [
   { id: 670710319, name: 'ณัฐพิฌา อั้งจุดพันธ์', nickname: 'วายา',
     major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาเขียว', 'Genshin impact'] },
   { id: 670710722, name: 'ธัญลักษณ์ มาสถิตทรัพย์', nickname: 'นีน่า',
-    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาไทย', 'NCT 127'] }
+    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาไทย', 'NCT 127'] },
+  { id: 999999999, name: 'VisTa Lengh', nickname: 'Vanish:)',
+    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ออกกำลังกาย', 'ฟังเพลง'] }
 ];
 
 function App() {
