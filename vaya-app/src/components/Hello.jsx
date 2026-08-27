@@ -1,3 +1,4 @@
+// File week 4
 function Hello() {
   return <h2>สวัสดีจาก Component แรกของฉัน! 🎉</h2>;
 }

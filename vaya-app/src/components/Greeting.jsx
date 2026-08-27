@@ -1,4 +1,4 @@
-
+// File week 4
 // เขียนได้หลายแบบ
 // function Greeting(props) {
 //   return <h2>สวัสดี {props.name}! คุณเรียนอยู่ชั้นปี {props.year}</h2>;
