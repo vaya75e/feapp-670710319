@@ -4,6 +4,7 @@
 import { movies } from '../data/data.js';
 import MovieCard from '../components/MovieCard.jsx'
 import MovieGallery from '../components/MovieGallery.jsx';
+
 function Home() {
   // File week
   return (
@@ -16,7 +17,7 @@ function Home() {
           //  <MovieCard title = "KHOMKHLANG the series" year = {2026}></MovieCard>
         ))}
       </div>
-      <h2 classname="mx-8 text-ml font-bold text-slate">ดูหนังเพิ่มเติม</h2>
+      <h2 classname="mx-8 text-ml font-bold text-slate-800">ดูหนังเพิ่มเติม</h2>
         <MovieGallery/>
     </div>
   );

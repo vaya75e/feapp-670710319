@@ -5,7 +5,7 @@ function MovieCard({ title, year }) {
   const [likes, setLikes] = useState(0);   // 2. ประกาศ state
 
   return (
-    <div className="rounded-2xl bg-white p-6 shadow-md">
+    <div className="rounded-2xl bg-white p-6 shadow-md m-4">
       <h3 className="text-lg font-bold">{title} ({year})</h3>
       <button
         onClick={() => setLikes(likes + 1)}   // 3. เปลี่ยนค่าผ่าน setLikes

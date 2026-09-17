@@ -19,7 +19,6 @@
 // export default Navbar;
 
 import { NavLink } from 'react-router-dom';
-
 // ฟังก์ชันเลือก class: ถ้าเป็นหน้าปัจจุบัน ให้สีฟ้า + ขีดเส้นใต้
 const linkClass = ({ isActive }) =>
   isActive
@@ -42,8 +41,6 @@ function Navbar() {
                    focus:outline-none focus:ring-2 focus:ring-cyan-400">
           เข้าสู่ระบบ
         </button>
-
-
     </nav>
   );
 }
